@@ -45,8 +45,8 @@ namespace soft_cold_mock
             }
         }
 
-        private string url_action = "http://127.0.0.1:5002/action";
-        private string url_sensor = "http://127.0.0.1:5002/sensor";
+        private string url_action = "http://ddesmintyserver.ml:5002/action"; //local test: http://127.0.0.1:5002/action
+        private string url_sensor = "http://ddesmintyserver.ml:5002/sensor";
 
         private string temp = "0";
         private void timer1_Tick(object sender, EventArgs e)
